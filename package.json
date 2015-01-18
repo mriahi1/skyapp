@@ -1,0 +1,25 @@
+{
+  "name": "skyapp",
+  "version": "1.0.0",
+  "description": "skype style template",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mriahi1/skyapp.git"
+  },
+  "author": "max riahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mriahi1/skyapp/issues"
+  },
+  "homepage": "https://github.com/mriahi1/skyapp",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
