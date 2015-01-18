@@ -207,13 +207,13 @@ img.device-small {
 .btn-primary {
   background: #00aff0;
   color: #fff;
-  border: 2px solid white;
+  border: 2px solid #fff;
 }
 
 /* line 8, ../scss/modules/_buttons.scss */
 .btn-primary:hover {
   background: #008abd;
-  border: 2px solid white;
+  border: 2px solid #fff;
 }
 
 /* Sections */
