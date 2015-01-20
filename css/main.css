@@ -29,6 +29,11 @@ h1, h2, h3, h4, h5 {
   padding-bottom: 40px;
 }
 
+/* line 18, ../scss/base/_normalize.scss */
+.top-inner {
+  padding: 90px 0 30px 0;
+}
+
 /* line 1, ../scss/base/_base.scss */
 body {
   font-family: "Segoe UI", "Segoe WP", "segoe Regular", sans-serif;
@@ -142,23 +147,43 @@ img.device-small {
 
 /* Headings */
 /* line 71, ../scss/modules/_typography.scss */
-.heading-primary {
+.heading-primary, .heading-primary-a {
   color: #00aff0;
 }
 
 /* line 75, ../scss/modules/_typography.scss */
-.heading-secondary {
+.heading-primary-a {
+  border-bottom: 2px solid #00aff0;
+}
+
+/* line 80, ../scss/modules/_typography.scss */
+.heading-secondary, .heading-secondary-a {
   color: #7fba00;
 }
 
-/* line 79, ../scss/modules/_typography.scss */
-.heading-light {
+/* line 84, ../scss/modules/_typography.scss */
+.heading-secondary-a {
+  border-bottom: 2px solid #7fba00;
+}
+
+/* line 89, ../scss/modules/_typography.scss */
+.heading-light, .heading-light-a {
   color: #e4eef2;
 }
 
-/* line 83, ../scss/modules/_typography.scss */
-.heading-dark {
+/* line 93, ../scss/modules/_typography.scss */
+.heading-light-a {
+  border-bottom: 2px solid #e4eef2;
+}
+
+/* line 98, ../scss/modules/_typography.scss */
+.heading-dark, .heading-dark-a {
   color: #2b5464;
+}
+
+/* line 102, ../scss/modules/_typography.scss */
+.heading-dark-a {
+  border-bottom: 2px solid #2b5464;
 }
 
 /* Block */
@@ -238,27 +263,49 @@ section {
 }
 
 /* line 21, ../scss/modules/_sections.scss */
-.section-primary {
+.section-primary, .section-primary-a, .section-primary-b {
   background: #00aff0;
   color: #fff;
 }
 
 /* line 25, ../scss/modules/_sections.scss */
+.section-primary-a {
+  border-top: 4px solid #7fba00;
+}
+
+/* line 31, ../scss/modules/_sections.scss */
+.section-primary-b {
+  border-bottom: 4px solid #7fba00;
+}
+
+/* line 37, ../scss/modules/_sections.scss */
 .section-secondary {
   background: #7fba00;
   color: #fff;
 }
 
-/* line 29, ../scss/modules/_sections.scss */
+/* line 41, ../scss/modules/_sections.scss */
 .section-light {
   background: #e4eef2;
   color: #666;
 }
 
-/* line 33, ../scss/modules/_sections.scss */
+/* line 45, ../scss/modules/_sections.scss */
 .section-dark {
   background: #2b5464;
   color: #fff;
+}
+
+/* Carasoell */
+/* line 3, ../scss/modules/_components.scss */
+.carousel {
+  margin-bottom: 20px;
+}
+
+/* line 7, ../scss/modules/_components.scss */
+.carousel img {
+  padding: 3px;
+  border: 1px solid #cccccc;
 }
 
 /* Searchbox */
